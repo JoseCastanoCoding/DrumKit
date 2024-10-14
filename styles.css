@@ -1,0 +1,34 @@
+body {
+    background-image: url(istockphoto-1204460874-1024x1024.jpg);
+    background-size: cover;
+}
+
+.rowOfKeys {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.key {
+    text-align: center;
+    border: 2px solid black;
+    width: 7%;
+    background-color: darkgrey;
+    opacity: 0.6;
+    transition: all .07s ease;
+}
+
+p {
+    text-transform: uppercase;
+    color: #3b00ff;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
